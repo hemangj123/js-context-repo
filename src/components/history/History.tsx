@@ -26,6 +26,7 @@ interface HistoryProps {
 const History: React.FC<HistoryProps> = ({
   history,
   handleHistoryItemClick,
+  refetchHistory,
 }) => {
   const { list, loading, error: historyError } = history;
   const { userId } = useSelector(selectUser);

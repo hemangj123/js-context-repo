@@ -565,6 +565,7 @@ const Home: React.FC = () => {
           <History
             history={history}
             handleHistoryItemClick={handleHistoryItemClick}
+            refetchHistory={refetchHistory}
           />
         )}
       </div>
